@@ -30,7 +30,7 @@ This Seed provides users with PassportJS registration / authentication and Angul
 Upon registration, the application sends a confirmation e-mail (make sure you use a valid email address that you can check for the confirmation email). As for now, I'm not doing anything with it, but I plan to add more features sometime soon (Tests are a must).
 
 ## Directory Structure
-    
+```
   app.js                --> web server
     package.json          --> package dependencies
     gruntfile.js        --> grunt setup stuffs
@@ -58,6 +58,7 @@ Upon registration, the application sends a confirmation e-mail (make sure you us
       api/        --> api for model manipulation  
         helpers/      --> generic helpers (I added an encryption helper)
       models/       --> mongoose models       
+```  
 
 Yay!
 - Ryan
